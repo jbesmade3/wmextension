@@ -1,0 +1,10 @@
+{
+    "name": "WFS - Sourcing Tool",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["https://www.walmart.com/*"],
+        "css": ["wfs_ST.css"],
+        "js": ["wfs_ST.js"]
+    }]
+}

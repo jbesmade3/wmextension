@@ -1,0 +1,160 @@
+#mainElement{
+    width: 60%;
+    border: 3px;
+    border-radius: auto;
+    border: black;
+    border-style: solid;
+    margin-left: 25%;
+}
+
+#menuButton{
+    text-align: center;
+}
+#menuButton div{
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(175, 209, 175);
+    line-height: 30px;
+}
+#menuButton div:nth-child(1){
+    background-color: rgb(95, 131, 95);
+}
+#productInfo i{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+#productInfo{
+    display: inline-block; /*inline-block*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#revCalc{
+    direction: ltr;
+    display: none;
+}
+
+#revCalc input{
+    text-align: center;
+    width: 150px;
+    float: right;
+    padding: 0;
+    margin: 0 0 0 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#revCalc i{
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(116, 109, 109);
+}
+#revCalc input:focus{
+    width: 17   0px;
+    font-weight: bold;
+}
+
+#productInfo o:hover{
+    font-size: 30px;
+    color: rgb(114, 158, 114);
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#watchedItems{
+    display: none;
+}
+
+#monitorButton{
+    margin: 5px 0 5px 82%;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#watchedItems p{
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#watchedItems p:hover::after{
+    content: "Click on the value to reveal Data...";
+}
+#watchedItems div{
+    border: 1px;
+    margin: 3px;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-left: 15%;
+    display: inline-block;
+    width: auto;
+}
+#watchedItems o{
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(135, 155, 135); 
+}
+
+#watchedItems i{
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(128, 98, 98);
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#ggmon{
+    display: inline-flex;
+    margin-left: 25%;
+}
+#ggmon > button:nth-child(1){
+    background-color: rgb(132, 202, 132);
+    border-radius: 10px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+#ggmon > button:nth-child(2){
+    background-color: rgb(132, 202, 132);
+    border-radius: 10px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
